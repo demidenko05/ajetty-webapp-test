@@ -10,9 +10,10 @@
   <name>WEB test application for A-Jetty. For testing purposes, not for central Maven repository.</name>
   
   <description>
-    Simple WEB-app for A-Jetty to test servlets, JSP, JSTL, UTF-8 I18N. 
+    Simple WEB-app for A-Jetty to test servlets, JSP, JSTL, UTF-8 I18N.
+    It's only for tests purposes! It doesn't comply to the latest Android policy (loading executable binaries from outside)!!!
   </description>
-  <url>http://www.beigesoft.org</url>
+  <url>https://sites.google.com/site/beigesoftware</url>
 
   <inceptionYear>2016</inceptionYear>
 
@@ -32,15 +33,15 @@
     <dependency>
       <groupId>com.github.demidenko05</groupId>
       <artifactId>a-jetty-base</artifactId>
-      <version>1.0.2-SNAPSHOT</version>
+      <version>1.0.5-SNAPSHOT</version>
       <scope>provided</scope>
     </dependency>
   </dependencies>
 
   <licenses>
     <license>
-      <name>GNU General Public License version 2</name>
-      <url>http://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html</url>
+      <name>BSD 2-Clause License</name>
+      <url>https://sites.google.com/site/beigesoftware/bsd2csl</url>
       <distribution>repo</distribution>
     </license>
   </licenses>
