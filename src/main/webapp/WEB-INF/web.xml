@@ -54,23 +54,23 @@ description, distributable, and context-param elements.
 -->
 
     <servlet>
-        <servlet-name>org.apache.jsp.hello_jsp</servlet-name>
-        <servlet-class>org.apache.jsp.hello_jsp</servlet-class>
-    </servlet>
-
-    <servlet>
         <servlet-name>org.apache.jsp.test_jsp</servlet-name>
         <servlet-class>org.apache.jsp.test_jsp</servlet-class>
     </servlet>
 
-    <servlet-mapping>
+    <servlet>
         <servlet-name>org.apache.jsp.hello_jsp</servlet-name>
-        <url-pattern>/hello.jsp</url-pattern>
-    </servlet-mapping>
+        <servlet-class>org.apache.jsp.hello_jsp</servlet-class>
+    </servlet>
 
     <servlet-mapping>
         <servlet-name>org.apache.jsp.test_jsp</servlet-name>
         <url-pattern>/test.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.hello_jsp</servlet-name>
+        <url-pattern>/hello.jsp</url-pattern>
     </servlet-mapping>
 
 <!--
